@@ -12,7 +12,7 @@ const {
 } = require('../controllers/userControllers')
 
 router.get('/', paginaPrincipal);
-router.get('/', paginaLogin);
+router.get('/login', paginaLogin);
 router.get('/registrar', paginaRegistro)
 
 router.post('/',  
